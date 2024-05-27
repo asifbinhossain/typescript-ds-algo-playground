@@ -28,3 +28,10 @@
 
 - Binary Search Tree
 - Linked List
+
+### Algorithms
+
+### Typescript
+
+- Argument Types
+- Decorators
