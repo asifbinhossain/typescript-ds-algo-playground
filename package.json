@@ -1,0 +1,19 @@
+{
+  "name": "typescript-ds-algo-playground",
+  "version": "1.0.0",
+  "description": "typescript playground for data structures, algorithms & all things ts",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "typescript",
+    "jest",
+    "playground",
+    "data",
+    "structures",
+    "algorithms"
+  ],
+  "author": "asif bin hossain",
+  "license": "ISC"
+}
