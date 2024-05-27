@@ -6,7 +6,7 @@ describe('test js String primitive', () => {
     expect(myString.toUpperCase()).toEqual('MY STRING');
   });
 
-  it('should test string class methods', () => {
+  it('tests string class methods', () => {
     const myString = 'Hello World!';
     expect(myString).toBe('Hello World!');
     expect(myString.toLowerCase().split(' ')).toEqual(['hello', 'world!']);

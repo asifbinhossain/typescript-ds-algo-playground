@@ -1,5 +1,5 @@
 describe('tests js Map class', () => {
-  it('should test basic map', () => {
+  it('tests basic map', () => {
     const map: Map<number, boolean> = new Map();
     map.set(2, true);
     map.set(5, false);
@@ -13,7 +13,7 @@ describe('tests js Map class', () => {
     expect(map.has(5)).toBe(true);
   });
 
-  it('should test array to map construction', () => {
+  it('tests array to map construction', () => {
     const list = [1, 2, 3, 4, 5, 6];
     const mymap = list.reduce((acc: Map<number, boolean>, curr) => {
       acc.set(curr, true);

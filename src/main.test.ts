@@ -1,6 +1,6 @@
 import { Hello } from './main';
 describe('hello test', () => {
-  it('test hello world', () => {
+  it('tests hello world', () => {
     expect(Hello).toBeDefined();
     expect(Hello).toBe('Hello world');
   });
